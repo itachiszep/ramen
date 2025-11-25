@@ -1,0 +1,23 @@
+@import "tailwindcss";
+ 
+
+@layer utilities {
+    .line-clamp-2 {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+  }
+
+body{
+  background-color:black;
+}
+
+.itachi{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
